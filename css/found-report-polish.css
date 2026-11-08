@@ -1,12 +1,12 @@
 .found-report-page {
     background:
-        radial-gradient(ellipse at 50% 0, rgba(223, 243, 236, 0.6), transparent 36rem),
+        radial-gradient(ellipse at 50% 0, rgba(229,239,251, 0.6), transparent 36rem),
         linear-gradient(180deg, #f8fbfa 0%, #f4f7f6 100%);
 }
 
 .found-report-page .report-topbar {
     background: rgba(255, 255, 255, 0.86);
-    border-bottom-color: rgba(210, 224, 218, 0.8);
+    border-bottom-color: rgba(211,221,235, 0.8);
 }
 
 .found-report-page .report-container {
@@ -15,9 +15,9 @@
 }
 
 .found-report-page .report-icon {
-    border-color: #d5ebe2;
+    border-color: #dde6f3;
     border-radius: 18px;
-    background: linear-gradient(145deg, #e9f7f0, #dff1e8);
+    background: linear-gradient(145deg, #ecf4fe, #e4edfa);
 }
 
 .found-report-page .report-intro h1 {
@@ -27,14 +27,14 @@
 .found-report-page .progress-card {
     margin-top: 25px;
     padding: 15px 18px;
-    border-color: #e1e9e5;
+    border-color: #e2e7ef;
     border-radius: 15px;
-    box-shadow: 0 5px 18px rgba(26, 54, 43, 0.035);
+    box-shadow: 0 5px 18px rgba(10,46,92, 0.035);
 }
 
 .found-report-page .progress-track {
     height: 6px;
-    background: #eaf0ed;
+    background: #eaeff5;
 }
 
 .found-report-page .progress-fill {
@@ -44,9 +44,9 @@
 .found-report-page .form-step {
     margin-top: 15px;
     padding: clamp(21px, 4vw, 34px);
-    border-color: #e1e9e5;
+    border-color: #e2e7ef;
     border-radius: 20px;
-    box-shadow: 0 8px 24px rgba(26, 54, 43, 0.04);
+    box-shadow: 0 8px 24px rgba(10,46,92, 0.04);
 }
 
 .found-report-page .step-heading {
@@ -55,7 +55,7 @@
 
 .found-report-page .step-number {
     border-radius: 13px;
-    background: #e8f5ef;
+    background: #eaf2fe;
 }
 
 .found-report-page .category-finder {
@@ -63,17 +63,17 @@
     z-index: 5;
     margin: -2px 0 20px;
     padding: 17px;
-    border: 1px solid #dce9e2;
+    border: 1px solid #dde6f3;
     border-radius: 17px;
     background:
-        radial-gradient(circle at 100% 0, rgba(220, 242, 230, 0.6), transparent 17rem),
-        #f8fbf9;
+        radial-gradient(circle at 100% 0, rgba(227,237,249, 0.6), transparent 17rem),
+        #f8fafe;
 }
 
 .found-report-page .category-finder > label {
     display: block;
     margin-bottom: 10px;
-    color: #36594a;
+    color: #2f5c98;
     font-size: 12px;
     font-weight: 800;
 }
@@ -84,18 +84,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    border: 1px solid #d4e1da;
+    border: 1px solid #d5deec;
     border-radius: 13px;
     background: #fff;
-    box-shadow: 0 3px 10px rgba(30, 70, 50, 0.04);
+    box-shadow: 0 3px 10px rgba(0,58,124, 0.04);
     transition:
         border-color var(--transition),
         box-shadow var(--transition);
 }
 
 .found-report-page .category-search-field:focus-within {
-    border-color: #70b497;
-    box-shadow: 0 0 0 4px rgba(22, 131, 95, 0.09);
+    border-color: #63a5fe;
+    box-shadow: 0 0 0 4px rgba(3,118,239, 0.09);
 }
 
 .found-report-page .category-search-field > span {
@@ -118,16 +118,16 @@
 }
 
 .found-report-page .category-search-field input::placeholder {
-    color: #9aa8a0;
+    color: #9aa5b4;
 }
 
 .found-report-page .category-search-field kbd {
     flex: 0 0 auto;
     padding: 5px 8px;
-    border: 1px solid #e5ece8;
+    border: 1px solid #e5eaf2;
     border-radius: 7px;
     background: #f8faf9;
-    color: #84938a;
+    color: #8490a0;
     font-family: inherit;
     font-size: 9px;
 }
@@ -142,17 +142,17 @@
 
 .found-report-page .category-search-hints > span {
     margin-inline-end: 2px;
-    color: #85938b;
+    color: #85909f;
     font-size: 10px;
 }
 
 .found-report-page .category-search-hints button {
     min-height: 27px;
     padding: 3px 9px;
-    border: 1px solid #e0e9e4;
+    border: 1px solid #e0e7f0;
     border-radius: 999px;
     background: #fff;
-    color: #526a5d;
+    color: #4f709e;
     font-size: 10px;
     cursor: pointer;
     transition:
@@ -162,9 +162,9 @@
 }
 
 .found-report-page .category-search-hints button:hover {
-    border-color: #a8cdb9;
-    background: #eef7f1;
-    color: #14694f;
+    border-color: #9cc5ff;
+    background: #eff5fe;
+    color: #0161c6;
 }
 
 .found-report-page .category-search-results {
@@ -176,10 +176,10 @@
     max-height: 280px;
     overflow: auto;
     padding: 6px;
-    border: 1px solid #dce7e1;
+    border: 1px solid #dce5f0;
     border-radius: 13px;
     background: #fff;
-    box-shadow: 0 16px 34px rgba(24, 50, 38, 0.15);
+    box-shadow: 0 16px 34px rgba(7,43,88, 0.15);
 }
 
 .found-report-page .category-search-results[hidden] {
@@ -203,13 +203,13 @@
 }
 
 .found-report-page .category-search-result + .category-search-result {
-    border-top: 1px solid #f0f3f1;
+    border-top: 1px solid #f0f2f6;
 }
 
 .found-report-page .category-search-result:hover,
 .found-report-page .category-search-result:focus-visible {
     outline: 0;
-    background: #f1f8f4;
+    background: #f1f6fe;
 }
 
 .found-report-page .category-search-result-icon {
@@ -219,7 +219,7 @@
     display: grid;
     place-items: center;
     border-radius: 11px;
-    background: #f0f6f2;
+    background: #f0f5fb;
     font-size: 18px;
 }
 
@@ -239,7 +239,7 @@
 
 .found-report-page .category-search-result-copy small {
     margin-top: 2px;
-    color: #84918a;
+    color: #858e9b;
     font-size: 10px;
 }
 
@@ -252,7 +252,7 @@
 .found-report-page .category-search-empty {
     margin: 0;
     padding: 14px 11px;
-    color: #78877e;
+    color: #788494;
     font-size: 11px;
     line-height: 1.7;
 }
@@ -262,7 +262,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    color: #94a098;
+    color: #949dab;
     font-size: 10px;
 }
 
@@ -270,7 +270,7 @@
 .found-report-page .category-browse-divider::after {
     height: 1px;
     flex: 1;
-    background: #e9eeeb;
+    background: #e9edf2;
     content: "";
 }
 
@@ -285,10 +285,10 @@
     padding: 18px 12px 16px;
     gap: 6px;
     overflow: hidden;
-    border-color: #e3eae7;
+    border-color: #e4e9ef;
     border-radius: 16px;
     background: linear-gradient(160deg, #fff, #fcfdfc);
-    box-shadow: 0 2px 7px rgba(25, 50, 40, 0.025);
+    box-shadow: 0 2px 7px rgba(11,43,85, 0.025);
 }
 
 .found-report-page .category-card::before {
@@ -306,9 +306,9 @@
     margin-bottom: 3px;
     display: grid;
     place-items: center;
-    border: 1px solid #e8efec;
+    border: 1px solid #e9eef4;
     border-radius: 13px;
-    background: #f5f8f6;
+    background: #f5f7fb;
     font-size: 21px;
     transition:
         transform var(--transition),
@@ -322,7 +322,7 @@
 }
 
 .found-report-page .category-card small {
-    color: #87938d;
+    color: #88909c;
     text-align: center;
     font-size: 9px;
     line-height: 1.45;
@@ -330,26 +330,26 @@
 
 .found-report-page .category-card:hover {
     transform: translateY(-3px);
-    border-color: #c8ddd3;
+    border-color: #cbd8eb;
     background: #fff;
-    box-shadow: 0 9px 20px rgba(29, 76, 56, 0.08);
+    box-shadow: 0 9px 20px rgba(0,63,133, 0.08);
 }
 
 .found-report-page .category-card:hover > span {
     transform: translateY(-1px);
-    background: #edf7f1;
+    background: #eef5fe;
 }
 
 .found-report-page .category-card:focus-visible {
-    outline: 3px solid rgba(22, 131, 95, 0.2);
+    outline: 3px solid rgba(3,118,239, 0.2);
     outline-offset: 3px;
 }
 
 .found-report-page .category-card.selected {
-    border-color: #68b99b;
-    background: linear-gradient(160deg, #f4fbf7, #eef8f3);
-    color: #14694f;
-    box-shadow: inset 0 0 0 1px #68b99b, 0 7px 16px rgba(22, 131, 95, 0.08);
+    border-color: #68a8ff;
+    background: linear-gradient(160deg, #f6f9fe, #eff6ff);
+    color: #0161c6;
+    box-shadow: inset 0 0 0 1px #68a8ff, 0 7px 16px rgba(3,118,239, 0.08);
 }
 
 .found-report-page .category-card.selected::before {
@@ -357,25 +357,25 @@
 }
 
 .found-report-page .category-card.selected > span {
-    border-color: #d8eee3;
-    background: #e5f4ec;
+    border-color: #dfe9f5;
+    background: #e7f1fd;
 }
 
 .found-report-page .category-card.selected small {
-    color: #54806d;
+    color: #4981ce;
 }
 
 .found-report-page .selection-status {
     margin-top: 16px;
     padding: 12px 14px;
-    border-color: #e3eae7;
+    border-color: #e4e9ef;
     border-radius: 12px;
     font-size: 11px;
 }
 
 .found-report-page .selection-status.selected {
-    border-color: #cce6d9;
-    background: #f0f8f3;
+    border-color: #d6e0ec;
+    background: #f0f6ff;
 }
 
 .found-report-page .step-navigation {
@@ -393,8 +393,8 @@
 
 .found-report-page .next-button:hover,
 .found-report-page .submit-report-button:hover {
-    background: #126f51;
-    box-shadow: 0 7px 16px rgba(22, 131, 95, 0.17);
+    background: #0165cf;
+    box-shadow: 0 7px 16px rgba(3,118,239, 0.17);
 }
 
 .found-report-page .next-button:active,
@@ -476,17 +476,17 @@
 }
 
 .found-report-page .report-icon {
-    border-color: #e0e7e3;
+    border-color: #e0e5ed;
     border-radius: 12px;
-    background: #edf3ef;
+    background: #edf2f8;
     box-shadow: none;
 }
 
 .found-report-page .progress-card,
 .found-report-page .form-step {
-    border-color: #e1e6e3;
+    border-color: #e1e5ea;
     border-radius: 12px;
-    box-shadow: 0 1px 2px rgba(20, 35, 28, 0.035);
+    box-shadow: 0 1px 2px rgba(22,32,45, 0.035);
 }
 
 .found-report-page .step-heading {
@@ -497,7 +497,7 @@
     width: 34px;
     height: 34px;
     border-radius: 9px;
-    background: #eaf2ed;
+    background: #eaf0f9;
 }
 
 .found-report-page .category-finder {
@@ -510,7 +510,7 @@
 
 .found-report-page .category-finder > label {
     margin-bottom: 7px;
-    color: #34433a;
+    color: #35404f;
     font-size: 12px;
 }
 
@@ -518,21 +518,21 @@
     min-height: 48px;
     padding-inline: 12px;
     gap: 9px;
-    border-color: #d5ddd8;
+    border-color: #d5dbe4;
     border-radius: 9px;
     box-shadow: none;
 }
 
 .found-report-page .category-search-field:focus-within {
-    border-color: #398367;
-    box-shadow: 0 0 0 3px rgba(22, 131, 95, 0.09);
+    border-color: #127af1;
+    box-shadow: 0 0 0 3px rgba(3,118,239, 0.09);
 }
 
 .found-report-page .category-search-field > svg {
     width: 19px;
     height: 19px;
     flex: 0 0 19px;
-    stroke: #65746b;
+    stroke: #657181;
     stroke-width: 1.8;
 }
 
@@ -542,7 +542,7 @@
 }
 
 .found-report-page .category-search-field input::placeholder {
-    color: #929d96;
+    color: #929ba7;
 }
 
 .found-report-page .category-search-hints {
@@ -551,32 +551,32 @@
 }
 
 .found-report-page .category-search-hints > span {
-    color: #737f78;
+    color: #737c89;
     font-size: 10px;
 }
 
 .found-report-page .category-search-hints button {
     min-height: 25px;
-    border-color: #e0e5e2;
+    border-color: #e0e4e9;
     border-radius: 6px;
     background: #fff;
-    color: #526057;
+    color: #525d6c;
     font-size: 10px;
 }
 
 .found-report-page .category-search-hints button:hover {
-    border-color: #a9beb2;
-    background: #f5f8f6;
-    color: #315c47;
+    border-color: #acb9cc;
+    background: #f5f7fb;
+    color: #1f5ba8;
 }
 
 .found-report-page .category-search-results {
     top: calc(100% - 5px);
     right: 0;
     left: 0;
-    border-color: #dce2de;
+    border-color: #dce1e7;
     border-radius: 9px;
-    box-shadow: 0 8px 20px rgba(24, 38, 30, 0.12);
+    box-shadow: 0 8px 20px rgba(25,35,49, 0.12);
 }
 
 .found-report-page .category-search-result {
@@ -585,27 +585,27 @@
 
 .found-report-page .category-search-result-icon {
     border-radius: 8px;
-    background: #f0f3f1;
+    background: #f0f2f6;
 }
 
 .found-report-page .category-search-result:hover,
 .found-report-page .category-search-result:focus-visible {
-    background: #f4f7f5;
+    background: #f4f6fa;
 }
 
 .found-report-page .category-search-result-action {
-    color: #376e53;
+    color: #1969cb;
 }
 
 .found-report-page .category-browse-divider {
     margin: 20px 0 11px;
-    color: #69766e;
+    color: #697381;
     font-size: 11px;
 }
 
 .found-report-page .category-browse-divider::before,
 .found-report-page .category-browse-divider::after {
-    background: #e7ebe8;
+    background: #e7eaef;
 }
 
 .found-report-page .category-grid {
@@ -622,7 +622,7 @@
     align-content: center;
     column-gap: 10px;
     row-gap: 2px;
-    border-color: #e1e6e3;
+    border-color: #e1e5ea;
     border-radius: 9px;
     background: #fff;
     box-shadow: none;
@@ -653,59 +653,59 @@
 }
 
 .found-report-page .category-card strong {
-    color: #26342c;
+    color: #27313f;
     font-size: 11px;
 }
 
 .found-report-page .category-card small {
-    color: #78847c;
+    color: #78818f;
     font-size: 9px;
 }
 
 .found-report-page .category-card:hover {
     transform: none;
-    border-color: #b9c9c0;
+    border-color: #bac6d6;
     background: #fcfdfc;
     box-shadow: none;
 }
 
 .found-report-page .category-card:hover > span {
     transform: none;
-    background: #edf1ee;
+    background: #edf0f5;
 }
 
 .found-report-page .category-card.selected {
-    border-color: #438768;
-    background: #f2f7f3;
-    color: #285b40;
-    box-shadow: inset 0 0 0 1px #438768;
+    border-color: #1e7ff5;
+    background: #f2f6fc;
+    color: #0056b2;
+    box-shadow: inset 0 0 0 1px #1e7ff5;
 }
 
 .found-report-page .category-card.selected > span {
-    background: #e4eee7;
+    background: #e4ecf7;
 }
 
 .found-report-page .category-card.selected strong {
-    color: #285b40;
+    color: #0056b2;
 }
 
 .found-report-page .category-card.selected small {
-    color: #5c7465;
+    color: #587baa;
 }
 
 .found-report-page .selection-status {
     margin-top: 12px;
     padding: 8px 10px;
-    border-color: #e4e9e6;
+    border-color: #e4e8ed;
     border-radius: 7px;
     background: #f7f8f7;
     font-size: 10px;
 }
 
 .found-report-page .selection-status.selected {
-    border-color: #d5e4da;
-    background: #f1f6f2;
-    color: #355f45;
+    border-color: #d7e0ed;
+    background: #f1f5fb;
+    color: #1b5db0;
 }
 
 .found-report-page .step-navigation button {
@@ -714,7 +714,7 @@
 
 .found-report-page .next-button:hover,
 .found-report-page .submit-report-button:hover {
-    background: #146b4e;
+    background: #0162c9;
     box-shadow: none;
 }
 
@@ -751,54 +751,54 @@
 }
 
 .found-report-page .report-icon {
-    border-color: #d9e4e4;
-    background: #eaf1f2;
+    border-color: #dbe2eb;
+    background: #ebf0f6;
 }
 
 .found-report-page .step-number {
-    background: #eaf4f2;
-    color: #247d78;
+    background: #ecf2fb;
+    color: #1876e5;
 }
 
 .found-report-page .progress-fill {
-    background: #247d78;
+    background: #1876e5;
 }
 
 .found-report-page .progress-header {
-    color: #78643b;
+    color: #46618a;
 }
 
 .found-report-page .category-search-field:focus-within {
-    border-color: #5b9992;
-    box-shadow: 0 0 0 3px rgba(36, 125, 120, 0.1);
+    border-color: #5699f3;
+    box-shadow: 0 0 0 3px rgba(24,118,229, 0.1);
 }
 
 .found-report-page .category-search-result-action {
-    color: #247d78;
+    color: #1876e5;
 }
 
 .found-report-page .category-card.selected {
-    border-color: #70a9a2;
-    background: #eef6f4;
-    color: #216f6b;
-    box-shadow: inset 0 0 0 1px #70a9a2;
+    border-color: #6caaff;
+    background: #eff4fc;
+    color: #196acd;
+    box-shadow: inset 0 0 0 1px #6caaff;
 }
 
 .found-report-page .category-card.selected strong {
-    color: #216f6b;
+    color: #196acd;
 }
 
 .found-report-page .category-card.selected small {
-    color: #557d79;
+    color: #5681bd;
 }
 
 .found-report-page .selection-status.selected {
-    border-color: #d1e2df;
-    background: #edf5f3;
-    color: #315f5a;
+    border-color: #d4dfed;
+    background: #eef3fb;
+    color: #3061a2;
 }
 
 .found-report-page .next-button:hover,
 .found-report-page .submit-report-button:hover {
-    background: #1c6e69;
+    background: #1168ce;
 }

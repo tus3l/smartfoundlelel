@@ -12,34 +12,34 @@
     --admin-bg: #f3f6f7;
     --admin-surface: #ffffff;
 
-    --admin-text: #172d3e;
-    --admin-soft: #405666;
-    --admin-muted: #617583;
-    --admin-light: #8998a1;
+    --admin-text: #182b45;
+    --admin-soft: #41546e;
+    --admin-muted: #677384;
+    --admin-light: #8b96a6;
 
-    --admin-border: #e0e7e9;
-    --admin-border-strong: #cbd6da;
+    --admin-border: #e1e6ec;
+    --admin-border-strong: #cdd5df;
 
-    --admin-primary: #173b52;
-    --admin-accent: #247d78;
+    --admin-primary: #1c385d;
+    --admin-accent: #1876e5;
     --admin-gold: #98702d;
 
-    --admin-lost: #315b73;
-    --admin-found: #247d78;
+    --admin-lost: #375781;
+    --admin-found: #1876e5;
 
-    --admin-sidebar: #142c3d;
-    --admin-sidebar-soft: #1c394d;
+    --admin-sidebar: #162a45;
+    --admin-sidebar-soft: #1f3657;
 
     --sidebar-width: 248px;
 
     --shadow-xs:
-        0 1px 2px rgba(16, 24, 40, 0.04);
+        0 1px 2px rgba(15,25,38, 0.04);
 
     --shadow-sm:
-        0 4px 14px rgba(16, 24, 40, 0.06);
+        0 4px 14px rgba(15,25,38, 0.06);
 
     --shadow-lg:
-        0 20px 50px rgba(16, 24, 40, 0.14);
+        0 20px 50px rgba(15,25,38, 0.14);
 }
 
 body.admin-page {
@@ -119,7 +119,7 @@ textarea {
 
     border-radius: 10px;
 
-    background: #247d78;
+    background: #1876e5;
 
     font-size: 19px;
 }
@@ -136,7 +136,7 @@ textarea {
 .admin-brand span {
     margin-top: 3px;
 
-    color: #8493a5;
+    color: #8693a4;
 
     font-size: 9px;
 }
@@ -167,7 +167,7 @@ textarea {
     border-radius: 8px;
 
     background: transparent;
-    color: #9ba9b8;
+    color: #9ba8ba;
 
     text-align: right;
 
@@ -186,7 +186,7 @@ textarea {
 }
 
 .admin-nav-item.active {
-    background: #1c394d;
+    background: #1f3657;
     color: white;
 }
 
@@ -202,7 +202,7 @@ textarea {
 
     border-radius: 3px;
 
-    background: #b18a48;
+    background: #5598ca;
 }
 
 .nav-count {
@@ -220,7 +220,7 @@ textarea {
 
     background: rgba(255, 255, 255, 0.08);
 
-    color: #dce4ec;
+    color: #dce4ef;
 
     font-size: 9px;
 }
@@ -254,7 +254,7 @@ textarea {
 
     border-radius: 9px;
 
-    background: #29475a;
+    background: #2c4464;
 
     font-size: 11px;
     font-weight: 800;
@@ -272,7 +272,7 @@ textarea {
 .admin-profile span {
     margin-top: 2px;
 
-    color: #7e8fa2;
+    color: #828ea0;
 
     font-size: 8px;
 }
@@ -470,19 +470,19 @@ textarea {
 }
 
 .lost-stat-icon {
-    background: #edf2f5;
+    background: #eef1f7;
 }
 
 .found-stat-icon {
-    background: #eaf4f2;
+    background: #ecf2fb;
 }
 
 .smart-stat-icon {
-    background: #f6f1e6;
+    background: #e9f2ff;
 }
 
 .completed-stat-icon {
-    background: #eaf4f2;
+    background: #ecf2fb;
 }
 
 .stat-card span,
@@ -628,7 +628,7 @@ textarea {
     border: 1px solid #e7dcc3;
     border-radius: 20px;
 
-    background: var(--accent-gold-soft);
+    background: var(--warning-soft);
     color: var(--admin-gold);
 
     font-size: 8px;
@@ -661,7 +661,7 @@ textarea {
 
     border-radius: 10px;
 
-    background: #edf0f2;
+    background: #edf0f3;
 }
 
 .match-progress > div {
@@ -765,7 +765,7 @@ textarea {
 .reports-table td {
     padding: 11px 8px;
 
-    border-bottom: 1px solid #eef1f4;
+    border-bottom: 1px solid #eef1f5;
 
     vertical-align: middle;
 
@@ -800,13 +800,13 @@ textarea {
 }
 
 .report-type-badge.lost {
-    background: #edf2f5;
-    color: #315b73;
+    background: #eef1f7;
+    color: #375781;
 }
 
 .report-type-badge.found {
-    background: #eaf4f2;
-    color: #247d78;
+    background: #ecf2fb;
+    color: #1876e5;
 }
 
 .person-cell strong,
@@ -856,33 +856,33 @@ textarea {
 }
 
 .status-new {
-    background: #edf2f5;
-    color: #315b73;
+    background: #eef1f7;
+    color: #375781;
 }
 
 .status-review {
-    background: var(--accent-gold-soft);
+    background: var(--warning-soft);
     color: var(--admin-gold);
 }
 
 .status-strong-match {
-    background: var(--accent-gold-soft);
-    color: var(--admin-gold);
+    background: var(--primary-soft);
+    color: var(--primary);
 }
 
 .status-contact {
-    background: var(--accent-gold-soft);
+    background: var(--warning-soft);
     color: var(--admin-gold);
 }
 
 .status-verification {
-    background: #eaf4f2;
-    color: #247d78;
+    background: #ecf2fb;
+    color: #1876e5;
 }
 
 .status-completed {
-    background: #eaf4f2;
-    color: #247d78;
+    background: #ecf2fb;
+    color: #1876e5;
 }
 
 .status-rejected {
@@ -981,7 +981,7 @@ textarea {
 
     z-index: 300;
 
-    background: rgba(16, 24, 40, 0.52);
+    background: rgba(15,25,38, 0.52);
 
     opacity: 0;
     visibility: hidden;
@@ -1118,7 +1118,7 @@ textarea {
 .detail-box {
     padding: 10px;
 
-    border: 1px solid #eef1f4;
+    border: 1px solid #eef1f5;
     border-radius: 8px;
 
     background: #fafbfc;
@@ -1178,17 +1178,17 @@ textarea {
 }
 
 .call-button {
-    border-color: #dce5e9;
+    border-color: #dde4ed;
 
-    background: #edf2f5;
-    color: #315b73;
+    background: #eef1f7;
+    color: #375781;
 }
 
 .whatsapp-button {
-    border-color: #d2e5e1;
+    border-color: #d8e1ee;
 
-    background: #edf5f3;
-    color: #247d78;
+    background: #eef3fb;
+    color: #1876e5;
 }
 
 
@@ -1254,7 +1254,7 @@ textarea {
 
     text-align: center;
 
-    border: 1px solid #eef1f4;
+    border: 1px solid #eef1f5;
     border-radius: 7px;
 
     background: #fafbfc;
@@ -1322,7 +1322,7 @@ textarea {
     border-color: var(--admin-primary);
 
     box-shadow:
-        0 0 0 3px rgba(36, 125, 120, 0.08);
+        0 0 0 3px rgba(24,118,229, 0.08);
 }
 
 .admin-note-save {
@@ -1375,7 +1375,7 @@ textarea {
 .status-action:hover {
     border-color: var(--admin-primary);
 
-    background: #edf3f4;
+    background: #eef2f7;
     color: var(--admin-primary);
 }
 
@@ -1468,7 +1468,7 @@ textarea {
         transform: translateX(103%);
 
         box-shadow:
-            -18px 0 40px rgba(16, 24, 40, 0.18);
+            -18px 0 40px rgba(15,25,38, 0.18);
     }
 
     .admin-sidebar.open {
@@ -1593,7 +1593,7 @@ textarea {
     overflow: hidden;
 
     background:
-        linear-gradient(180deg, #f3f8f4 0%, #ffffff 140px);
+        linear-gradient(180deg, #f3f7fd 0%, #ffffff 140px);
 }
 
 .lost-map-section[hidden] {
@@ -1679,13 +1679,13 @@ textarea {
     background:
         repeating-linear-gradient(
             45deg,
-            #e9f1ec 0 12px,
-            #f2f7f3 12px 24px
+            #e9eff8 0 12px,
+            #f2f6fc 12px 24px
         );
 
     box-shadow:
-        0 0 0 1px #d8e4dc,
-        0 14px 32px -16px rgb(14 44 38 / 35%);
+        0 0 0 1px #d8e1ee,
+        0 14px 32px -16px rgb(3 37 79 / 35%);
 }
 
 .lost-items-map {
@@ -1759,13 +1759,13 @@ textarea {
 }
 
 .lost-pin.completed {
-    background: #247d78;
+    background: #1876e5;
 }
 
 .lost-pin.approx.completed {
-    border-color: #247d78;
+    border-color: #1876e5;
 
-    background: #eaf4f2;
+    background: #ecf2fb;
 }
 
 .lost-pin-icon {
@@ -1783,7 +1783,7 @@ textarea {
 
     border-radius: 16px;
 
-    box-shadow: 0 18px 40px -12px rgb(14 44 38 / 35%);
+    box-shadow: 0 18px 40px -12px rgb(3 37 79 / 35%);
 }
 
 .lost-popup-container .leaflet-popup-content {
@@ -1832,7 +1832,7 @@ textarea {
 .lost-popup h3 {
     margin: 10px 0 4px;
 
-    color: var(--brand-900, #0c2c27);
+    color: var(--brand-900, #022450);
 
     font-size: 15px;
 }
@@ -1856,7 +1856,7 @@ textarea {
 
     border-radius: 12px;
 
-    background: #f6f9f4;
+    background: #f4f8fe;
 }
 
 .lost-popup-row {
@@ -1899,7 +1899,7 @@ textarea {
 }
 
 .lost-popup-button:hover {
-    background: var(--brand-800, #123f37);
+    background: var(--brand-800, #013470);
 }
 
 
@@ -1915,7 +1915,7 @@ textarea {
     border: 1px solid var(--admin-border);
     border-radius: 16px;
 
-    background: #fafcf7;
+    background: #f9fbfe;
 }
 
 .lost-map-list-head {
@@ -2047,7 +2047,7 @@ textarea {
 }
 
 .lost-map-precision.none {
-    background: #edf0ee;
+    background: #edeff3;
     color: var(--admin-muted);
 }
 
@@ -2168,14 +2168,14 @@ textarea {
 .activity-bar.lost,
 .bar-fill.lost,
 .split-fill.lost {
-    background: var(--lost, #2b6489);
+    background: var(--lost, #325f9b);
 }
 
 .legend-swatch.found,
 .activity-bar.found,
 .bar-fill.found,
 .split-fill.found {
-    background: var(--brand-600, #1f826b);
+    background: var(--brand-600, #0277f0);
 }
 
 .legend-swatch.region-0,
@@ -2190,7 +2190,7 @@ textarea {
 
 .legend-swatch.region-2,
 .split-fill.region-2 {
-    background: #3f78a0;
+    background: #4473b3;
 }
 
 
@@ -2213,7 +2213,7 @@ textarea {
         repeating-linear-gradient(
             to top,
             transparent 0 45px,
-            #eef2ec 45px 46px
+            #ecf1f8 45px 46px
         );
 }
 
@@ -2312,7 +2312,7 @@ textarea {
 }
 
 .donut-center strong {
-    color: var(--brand-900, #0c2c27);
+    color: var(--brand-900, #022450);
 
     font-size: 28px;
     line-height: 1;
@@ -2348,7 +2348,7 @@ textarea {
 
     border-radius: 10px;
 
-    background: #f6f9f4;
+    background: #f4f8fe;
 
     font-size: 11px;
     white-space: nowrap;
@@ -2408,7 +2408,7 @@ textarea {
 }
 
 .bar-row-head strong {
-    color: var(--brand-900, #0c2c27);
+    color: var(--brand-900, #022450);
 }
 
 .bar-track {
@@ -2420,7 +2420,7 @@ textarea {
 
     border-radius: 9px;
 
-    background: #eef2ec;
+    background: #ecf1f8;
 }
 
 .bar-fill {
@@ -2430,11 +2430,11 @@ textarea {
 }
 
 .bar-fill.quality-excellent {
-    background: #176b59;
+    background: #0063cb;
 }
 
 .bar-fill.quality-strong {
-    background: #2f9e8f;
+    background: #4896fe;
 }
 
 .bar-fill.quality-possible {
@@ -2446,7 +2446,7 @@ textarea {
 }
 
 .bar-fill.quality-none {
-    background: #b6c2bc;
+    background: #b7bfcb;
 }
 
 
@@ -2486,7 +2486,7 @@ textarea {
 
     border-radius: 12px;
 
-    background: #f6f9f4;
+    background: #f4f8fe;
 }
 
 .split-legend span {
@@ -2503,7 +2503,7 @@ textarea {
 .split-legend strong {
     margin-top: 4px;
 
-    color: var(--brand-900, #0c2c27);
+    color: var(--brand-900, #022450);
 
     font-size: 22px;
     line-height: 1.2;
@@ -2542,7 +2542,7 @@ textarea {
     border: 1px solid transparent;
     border-radius: 12px;
 
-    background: #fafcf7;
+    background: #f9fbfe;
 
     color: inherit;
 
@@ -2555,7 +2555,7 @@ textarea {
 }
 
 .recent-report:hover {
-    border-color: #cfe0d4;
+    border-color: #cfdcef;
 
     background: #fff;
 }

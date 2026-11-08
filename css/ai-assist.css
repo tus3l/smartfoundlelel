@@ -1,0 +1,213 @@
+/* AI assist: photo auto-fill (step 1), filled notice (step 2), description helper (step 3). */
+
+.ai-snap {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 14px 20px;
+    margin-bottom: 22px;
+    padding: 20px 22px;
+    border: 1px solid #cfe3fb;
+    border-radius: 18px;
+    background:
+        radial-gradient(260px 140px at 0% 0%, rgb(72 176 248 / 18%), transparent 70%),
+        linear-gradient(160deg, #f2f8ff, #fff);
+    overflow: hidden;
+}
+
+.ai-snap-text strong,
+.ai-snap-text small {
+    display: block;
+}
+
+.ai-snap-text strong {
+    margin-top: 8px;
+    font-size: 16px;
+    color: var(--brand-900, #022450);
+}
+
+.ai-snap-text small {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 1.8;
+    color: var(--muted, #617583);
+}
+
+.ai-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #48b0f8, #0a78f0);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.ai-snap-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ai-snap-button,
+.ai-describe-button,
+.ai-undo-button {
+    min-height: 42px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: 12px;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform .18s, box-shadow .18s, background .18s, opacity .18s;
+}
+
+.ai-snap-button,
+.ai-describe-button {
+    background: linear-gradient(135deg, #0a78f0, #0063cb);
+    color: #fff;
+    box-shadow: 0 8px 18px -10px rgb(0 99 203 / 70%);
+}
+
+.ai-snap-button.secondary {
+    background: #fff;
+    color: #0063cb;
+    border: 1px solid #cfe3fb;
+    box-shadow: none;
+}
+
+.ai-snap-button:hover:not(:disabled),
+.ai-describe-button:hover:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+.ai-snap-button:disabled,
+.ai-describe-button:disabled {
+    opacity: .65;
+    cursor: progress;
+}
+
+.ai-snap-status {
+    grid-column: 1 / -1;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.ai-snap-status:empty {
+    display: none;
+}
+
+.ai-snap[data-state="loading"] .ai-snap-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #0063cb;
+}
+
+.ai-snap[data-state="loading"] .ai-snap-status::before,
+.ai-describe-button.loading::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    border: 2px solid currentColor;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: ai-spin .8s linear infinite;
+}
+
+.ai-snap[data-state="done"] .ai-snap-status {
+    color: #0b7a4b;
+}
+
+.ai-snap[data-state="error"] .ai-snap-status {
+    color: var(--danger, #c63f4a);
+}
+
+.ai-filled-notice {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin: 0 0 20px;
+    padding: 14px 16px;
+    border: 1px solid #cfe3fb;
+    border-radius: 14px;
+    background: #f2f8ff;
+}
+
+.ai-filled-notice > span {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.ai-filled-notice strong,
+.ai-filled-notice small {
+    display: block;
+}
+
+.ai-filled-notice strong {
+    font-size: 14px;
+    color: var(--brand-900, #022450);
+}
+
+.ai-filled-notice small {
+    margin-top: 3px;
+    font-size: 12px;
+    color: var(--muted, #617583);
+}
+
+.ai-filled-notice.low {
+    border-color: #f0dfb8;
+    background: var(--warning-soft, #faf5e9);
+}
+
+.ai-describe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    margin: 10px 0 12px;
+}
+
+.ai-describe-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 38px;
+}
+
+.ai-undo-button {
+    min-height: 38px;
+    background: #fff;
+    color: var(--text-soft, #405666);
+    border: 1px solid var(--border, #e0e7e9);
+}
+
+.ai-describe-hint {
+    flex-basis: 100%;
+    font-size: 12px;
+    color: var(--muted, #617583);
+}
+
+@keyframes ai-spin {
+    to { transform: rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+    .ai-snap {
+        grid-template-columns: 1fr;
+        padding: 18px;
+    }
+
+    .ai-snap-actions {
+        flex-direction: row;
+    }
+
+    .ai-snap-button {
+        flex: 1;
+    }
+}

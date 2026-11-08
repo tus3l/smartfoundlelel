@@ -3,14 +3,14 @@
    ========================================================= */
 
 .lost-status {
-    border-color: #d7e1e6;
+    border-color: #d9e0ea;
 
     background: var(--info-soft);
     color: var(--info);
 }
 
 .lost-report-icon {
-    border-color: #d7e1e6;
+    border-color: #d9e0ea;
 
     background: var(--info-soft);
 }
@@ -30,37 +30,37 @@
    ========================================================= */
 
 .lost-report-page .category-card.selected {
-    border-color: #91a8b4;
+    border-color: #98a5b7;
 
     background: var(--info-soft);
     color: var(--info);
 
     box-shadow:
-        inset 0 0 0 1px #91a8b4;
+        inset 0 0 0 1px #98a5b7;
 }
 
 .lost-report-page .selection-status.selected {
-    border-color: #d7e1e6;
+    border-color: #d9e0ea;
 
     background: var(--info-soft);
     color: var(--info);
 }
 
 .lost-report-page .color-option.selected {
-    border-color: #91a8b4;
+    border-color: #98a5b7;
 
     background: var(--info-soft);
     color: var(--info);
 }
 
 .lost-report-page .photo-option.selected {
-    border-color: #91a8b4;
+    border-color: #98a5b7;
 
     background: var(--info-soft);
 }
 
 .lost-report-page .location-choice.selected {
-    border-color: #91a8b4;
+    border-color: #98a5b7;
 
     background: var(--info-soft);
 }
@@ -81,7 +81,7 @@
 .lost-gps-button:hover,
 .lost-next-button:hover,
 .lost-submit:hover {
-    background: #274d63;
+    background: #2d4970;
 }
 
 
@@ -133,7 +133,7 @@
 
     flex-shrink: 0;
 
-    border: 2px solid #dfe4ea;
+    border: 2px solid #dee4ec;
     border-top-color: var(--info);
     border-radius: 50%;
 
@@ -176,17 +176,17 @@
 }
 
 .accuracy-quality.excellent {
-    border-color: #cfeadd;
+    border-color: #dae3f0;
 
     background: var(--success-soft);
-    color: #16694f;
+    color: #0161c6;
 }
 
 .accuracy-quality.good {
-    border-color: #d5e5f4;
+    border-color: #dae4f0;
 
-    background: #f0f7fc;
-    color: #35647e;
+    background: #f1f6ff;
+    color: #3d5f8e;
 }
 
 .accuracy-quality.medium {
@@ -209,11 +209,11 @@
    ========================================================= */
 
 .lost-admin-info {
-    border-color: #d7e1e6;
+    border-color: #d9e0ea;
 
-    background: #f1f5f6;
+    background: #f2f4f8;
 }
 
 .lost-admin-info p {
-    color: #536b78;
+    color: #566881;
 }

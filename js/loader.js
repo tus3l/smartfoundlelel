@@ -151,7 +151,7 @@
                     rotation = 8 * Math.sin((state.ph - .68) * 42) * (1 - (state.ph - .68) / .20);
                 }
                 filter = 'drop-shadow(0 ' + (7 * state.p).toFixed(1) + 'px ' +
-                    (5 * state.p).toFixed(1) + 'px rgba(24,63,57,' +
+                    (5 * state.p).toFixed(1) + 'px rgba(10,54,108,' +
                     (.30 * clamp(state.p, 0, 1)).toFixed(2) + '))';
             } else {
                 scale = 1 + .05 * Math.sin(t / 260 + i * 1.3);

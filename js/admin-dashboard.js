@@ -3330,7 +3330,7 @@ function renderStatusDonut() {
                         cy="21"
                         r="15.915"
                         fill="none"
-                        stroke="${colors[segment.status] || "#9aa8a2"}"
+                        stroke="${colors[segment.status] || "#9fa9b8"}"
                         stroke-width="6"
                         stroke-dasharray="${share} ${100 - share}"
                         stroke-dashoffset="${25 - offset}"
@@ -3364,7 +3364,7 @@ function renderStatusDonut() {
                     cy="21"
                     r="15.915"
                     fill="none"
-                    stroke="#eef2ee"
+                    stroke="#edf1f7"
                     stroke-width="6"
                 ></circle>
 
@@ -3386,7 +3386,7 @@ function renderStatusDonut() {
             ${segments.map(
                 segment => `
                     <li>
-                        <i style="background:${colors[segment.status] || "#9aa8a2"}"></i>
+                        <i style="background:${colors[segment.status] || "#9fa9b8"}"></i>
                         <span>${escapeHTML(statusLabels[segment.status])}</span>
                         <strong>${segment.count}</strong>
                         <small>${percentOf(segment.count, total)}%</small>

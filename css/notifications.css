@@ -27,7 +27,7 @@
     border: 1px solid var(--border);
     border-radius: 8px;
     background: #fff;
-    color: #176b59;
+    color: #0063cb;
     font-size: 12px;
     cursor: pointer;
 }
@@ -84,8 +84,8 @@
 }
 
 .notification-item.is-unread {
-    border-color: #b7d8ca;
-    background: #edf8f2;
+    border-color: #b1d2fe;
+    background: #eff5fe;
 }
 
 .notification-item-header,
@@ -103,7 +103,7 @@
 }
 
 .notification-read-state {
-    color: #176b59;
+    color: #0063cb;
     font-size: 11px;
 }
 

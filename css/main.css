@@ -14,23 +14,23 @@
     --surface: #ffffff;
     --surface-soft: #f6f8f8;
 
-    --text: #172d3e;
-    --text-soft: #405666;
-    --muted: #617583;
-    --muted-light: #8998a1;
+    --text: #182b45;
+    --text-soft: #41546e;
+    --muted: #677384;
+    --muted-light: #8b96a6;
 
-    --border: #e0e7e9;
-    --border-strong: #cbd6da;
+    --border: #e1e6ec;
+    --border-strong: #cdd5df;
 
-    --primary: #173b52;
-    --primary-hover: #102f43;
-    --primary-soft: #eaf1f4;
+    --primary: #1c385d;
+    --primary-hover: #142c4d;
+    --primary-soft: #ebf0f7;
 
-    --success: #247d78;
-    --success-soft: #eaf4f2;
+    --success: #1876e5;
+    --success-soft: #ecf2fb;
 
-    --info: #315b73;
-    --info-soft: #edf2f5;
+    --info: #375781;
+    --info-soft: #eef1f7;
 
     --danger: #c63f4a;
     --danger-soft: #fff1f2;
@@ -38,17 +38,17 @@
     --warning: #98702d;
     --warning-soft: #faf5e9;
 
-    --accent-gold: #b18a48;
-    --accent-gold-soft: #f6f1e6;
+    --accent-gold: #5598ca;
+    --accent-gold-soft: #e9f2ff;
 
     --shadow-xs:
-        0 1px 2px rgba(16, 24, 40, 0.04);
+        0 1px 2px rgba(15,25,38, 0.04);
 
     --shadow-sm:
-        0 2px 8px rgba(16, 24, 40, 0.06);
+        0 2px 8px rgba(15,25,38, 0.06);
 
     --shadow-md:
-        0 10px 30px rgba(16, 24, 40, 0.08);
+        0 10px 30px rgba(15,25,38, 0.08);
 
     --radius-sm: 8px;
     --radius-md: 12px;
@@ -104,11 +104,11 @@ a {
 }
 
 ::selection {
-    background: rgba(36, 125, 120, 0.16);
+    background: rgba(24,118,229, 0.16);
 }
 
 :focus-visible {
-    outline: 3px solid rgba(36, 125, 120, 0.2);
+    outline: 3px solid rgba(24,118,229, 0.2);
     outline-offset: 2px;
 }
 
@@ -162,7 +162,7 @@ a {
     font-size: 25px;
 
     border-bottom: 3px solid var(--accent-gold);
-    box-shadow: 0 8px 18px rgba(23, 59, 82, 0.18);
+    box-shadow: 0 8px 18px rgba(28,56,93, 0.18);
 }
 
 .auth-brand h1 {
@@ -188,7 +188,7 @@ a {
 }
 
 .auth-tabs {
-    background: #edf2f3;
+    background: #eef1f6;
 }
 
 .auth-tab.active {
@@ -346,7 +346,7 @@ a {
 .input-group input:hover,
 .input-group textarea:hover,
 .input-group select:hover {
-    border-color: #b8c0cc;
+    border-color: #b6c0cf;
 }
 
 .input-group input:focus,
@@ -355,12 +355,12 @@ a {
     border-color: var(--primary);
 
     box-shadow:
-        0 0 0 3px rgba(36, 125, 120, 0.1);
+        0 0 0 3px rgba(24,118,229, 0.1);
 }
 
 .input-group input::placeholder,
 .input-group textarea::placeholder {
-    color: #a3acb9;
+    color: #a1acbc;
 }
 
 .field-error {
@@ -422,7 +422,7 @@ a {
 
     cursor: pointer;
 
-    box-shadow: 0 4px 10px rgba(23, 59, 82, 0.16);
+    box-shadow: 0 4px 10px rgba(28,56,93, 0.16);
 
     transition:
         background var(--transition),
@@ -433,7 +433,7 @@ a {
 .primary-button:hover {
     background: var(--primary-hover);
 
-    box-shadow: 0 6px 14px rgba(23, 59, 82, 0.22);
+    box-shadow: 0 6px 14px rgba(28,56,93, 0.22);
 }
 
 .primary-button:active {
@@ -485,9 +485,9 @@ a {
 }
 
 .message-box.success {
-    border: 1px solid #cfeadd;
+    border: 1px solid #dae3f0;
     background: var(--success-soft);
-    color: #16694f;
+    color: #0161c6;
 }
 
 
@@ -685,7 +685,7 @@ a {
 .action-card:hover {
     transform: translateY(-2px);
 
-    border-color: #d0d8e0;
+    border-color: #d0d8e3;
 
     box-shadow: var(--shadow-sm);
 }
@@ -709,11 +709,11 @@ a {
 }
 
 .lost-card::after {
-    background: #eef3ff;
+    background: #ecf4fe;
 }
 
 .found-card::after {
-    background: #edf9f5;
+    background: #f0f6ff;
 }
 
 .action-card-icon {
@@ -856,11 +856,11 @@ a {
 
     gap: 10px;
 
-    border: 1px solid #dbeaf0;
+    border: 1px solid #dfe8f5;
     border-radius: 11px;
 
-    background: #f3f9fb;
-    color: #315c6d;
+    background: #f4f8fe;
+    color: #3b577d;
 }
 
 .yanbu-badge strong,
@@ -875,7 +875,7 @@ a {
 .yanbu-badge small {
     margin-top: 3px;
 
-    color: #66808a;
+    color: #707c8d;
 
     font-size: 10px;
 }
@@ -897,7 +897,7 @@ a {
 
     padding: 20px;
 
-    background: rgba(16, 24, 40, 0.52);
+    background: rgba(15,25,38, 0.52);
 
     opacity: 0;
     visibility: hidden;
@@ -926,7 +926,7 @@ a {
     background: white;
 
     box-shadow:
-        0 24px 60px rgba(16, 24, 40, 0.2);
+        0 24px 60px rgba(15,25,38, 0.2);
 
     transform: translateY(10px) scale(0.99);
 
@@ -1000,7 +1000,7 @@ a {
     border-right: 1px solid var(--border);
 
     box-shadow:
-        16px 0 40px rgba(16, 24, 40, 0.12);
+        16px 0 40px rgba(15,25,38, 0.12);
 
     transition: left 220ms ease;
 }

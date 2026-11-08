@@ -328,8 +328,8 @@ try {
                 :region_name,
                 :neighborhood_text,
                 :extra_attributes,
-                "open",
-                "public"
+                \'open\',
+                \'public\'
             )
             '
         );

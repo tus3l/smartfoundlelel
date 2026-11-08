@@ -3,3 +3,6 @@ uploads/items/*
 .vscode/
 .DS_Store
 Thumbs.db
+
+backend/config/ai.local.php
+backend/config/database.local.php

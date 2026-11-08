@@ -279,8 +279,8 @@ try {
                 :region_name,
                 :neighborhood_text,
                 :extra_attributes,
-                "available",
-                "public"
+                \'available\',
+                \'public\'
             )
             '
         );

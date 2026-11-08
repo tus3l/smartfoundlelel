@@ -235,8 +235,8 @@ try {
                 :email,
                 :phone,
                 :password_hash,
-                "user",
-                "active"
+                \'user\',
+                \'active\'
             )
             '
         );

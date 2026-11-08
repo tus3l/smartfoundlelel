@@ -67,7 +67,7 @@ function updateReportStatus(
     $notification = $pdo->prepare(
         'INSERT INTO notifications
             (user_id, type, title, message, reference_type, reference_id)
-         VALUES (?, "system", ?, ?, ?, ?)'
+         VALUES (?, \'system\', ?, ?, ?, ?)'
     );
     $notification->execute([
         (int)$report['user_id'],

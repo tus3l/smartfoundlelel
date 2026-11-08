@@ -10,7 +10,7 @@ function requireActiveUser(PDO $pdo): array
     $userId = requireAuthenticatedUser();
 
     $query = $pdo->prepare(
-        'SELECT id, role FROM users WHERE id = ? AND status = "active" LIMIT 1'
+        'SELECT id, role FROM users WHERE id = ? AND status = \'active\' LIMIT 1'
     );
     $query->execute([$userId]);
     $user = $query->fetch();

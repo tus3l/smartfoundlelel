@@ -12,17 +12,17 @@
 }
 
 .lost-report-page .report-icon {
-    border-color: #e0e6f2;
+    border-color: #dee7f3;
     border-radius: 12px;
-    background: #eef2fa;
+    background: #ecf3fc;
     box-shadow: none;
 }
 
 .lost-report-page .progress-card,
 .lost-report-page .form-step {
-    border-color: #e1e6ec;
+    border-color: #e0e6ee;
     border-radius: 12px;
-    box-shadow: 0 1px 2px rgba(20, 35, 50, 0.035);
+    box-shadow: 0 1px 2px rgba(19,34,55, 0.035);
 }
 
 .lost-report-page .step-heading {
@@ -45,7 +45,7 @@
 .lost-report-page .category-finder > label {
     display: block;
     margin-bottom: 7px;
-    color: #344154;
+    color: #2f415a;
     font-size: 12px;
     font-weight: 700;
 }
@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     gap: 9px;
-    border: 1px solid #d5dce5;
+    border: 1px solid #d4dce8;
     border-radius: 9px;
     background: #fff;
     transition:
@@ -65,15 +65,15 @@
 }
 
 .lost-report-page .category-search-field:focus-within {
-    border-color: #718bd0;
-    box-shadow: 0 0 0 3px rgba(49, 95, 202, 0.09);
+    border-color: #518fe2;
+    box-shadow: 0 0 0 3px rgba(2,99,203, 0.09);
 }
 
 .lost-report-page .category-search-field > svg {
     width: 19px;
     height: 19px;
     flex: 0 0 19px;
-    stroke: #687789;
+    stroke: #6a7687;
     stroke-width: 1.8;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .lost-report-page .category-search-field input::placeholder {
-    color: #929dab;
+    color: #909daf;
 }
 
 .lost-report-page .category-search-hints {
@@ -104,17 +104,17 @@
 
 .lost-report-page .category-search-hints > span {
     margin-inline-end: 2px;
-    color: #737f8f;
+    color: #737f90;
     font-size: 10px;
 }
 
 .lost-report-page .category-search-hints button {
     min-height: 25px;
     padding: 3px 8px;
-    border: 1px solid #e0e5eb;
+    border: 1px solid #dfe5ed;
     border-radius: 6px;
     background: #fff;
-    color: #526174;
+    color: #4f617a;
     font-size: 10px;
     cursor: pointer;
     transition:
@@ -124,9 +124,9 @@
 }
 
 .lost-report-page .category-search-hints button:hover {
-    border-color: #bdcbd1;
+    border-color: #bfc9d7;
     background: #f3f6f7;
-    color: #315b73;
+    color: #375781;
 }
 
 .lost-report-page .category-search-results {
@@ -138,10 +138,10 @@
     max-height: 280px;
     overflow: auto;
     padding: 6px;
-    border: 1px solid #dce2e9;
+    border: 1px solid #dbe2eb;
     border-radius: 9px;
     background: #fff;
-    box-shadow: 0 8px 20px rgba(24, 38, 55, 0.12);
+    box-shadow: 0 8px 20px rgba(21,38,60, 0.12);
 }
 
 .lost-report-page .category-search-results[hidden] {
@@ -164,13 +164,13 @@
 }
 
 .lost-report-page .category-search-result + .category-search-result {
-    border-top: 1px solid #f0f2f5;
+    border-top: 1px solid #eff2f6;
 }
 
 .lost-report-page .category-search-result:hover,
 .lost-report-page .category-search-result:focus-visible {
     outline: 0;
-    background: #f5f7fb;
+    background: #f4f7fc;
 }
 
 .lost-report-page .category-search-result-icon {
@@ -180,7 +180,7 @@
     display: grid;
     place-items: center;
     border-radius: 8px;
-    background: #f0f3f7;
+    background: #eff3f8;
     font-size: 18px;
 }
 
@@ -200,12 +200,12 @@
 
 .lost-report-page .category-search-result-copy small {
     margin-top: 2px;
-    color: #8490a0;
+    color: #8390a1;
     font-size: 10px;
 }
 
 .lost-report-page .category-search-result-action {
-    color: #315b73;
+    color: #375781;
     font-size: 10px;
     font-weight: 700;
 }
@@ -223,7 +223,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    color: #697688;
+    color: #6a7687;
     font-size: 11px;
 }
 
@@ -231,7 +231,7 @@
 .lost-report-page .category-browse-divider::after {
     height: 1px;
     flex: 1;
-    background: #e7ebef;
+    background: #e7ebf0;
     content: "";
 }
 
@@ -250,7 +250,7 @@
     align-content: center;
     column-gap: 10px;
     row-gap: 2px;
-    border-color: #e1e6ec;
+    border-color: #e0e6ee;
     border-radius: 9px;
     background: #fff;
     box-shadow: none;
@@ -267,7 +267,7 @@
     display: grid;
     place-items: center;
     border-radius: 8px;
-    background: #f0f3f7;
+    background: #eff3f8;
     font-size: 18px;
 }
 
@@ -278,7 +278,7 @@
 }
 
 .lost-report-page .category-card strong {
-    color: #263346;
+    color: #21334c;
     font-size: 11px;
 }
 
@@ -289,48 +289,48 @@
 
 .lost-report-page .category-card:hover {
     transform: none;
-    border-color: #bec9da;
+    border-color: #bcc9dc;
     background: #fcfcfd;
     box-shadow: none;
 }
 
 .lost-report-page .category-card:focus-visible {
-    outline: 3px solid rgba(49, 95, 202, 0.16);
+    outline: 3px solid rgba(2,99,203, 0.16);
     outline-offset: 2px;
 }
 
 .lost-report-page .category-card.selected {
-    border-color: #91a8b4;
-    background: #edf2f5;
-    color: #315b73;
-    box-shadow: inset 0 0 0 1px #91a8b4;
+    border-color: #98a5b7;
+    background: #eef1f7;
+    color: #375781;
+    box-shadow: inset 0 0 0 1px #98a5b7;
 }
 
 .lost-report-page .category-card.selected strong {
-    color: #315b73;
+    color: #375781;
 }
 
 .lost-report-page .category-card.selected small {
-    color: #6076ac;
+    color: #4979ba;
 }
 
 .lost-report-page .category-card.selected > span {
-    background: #e8edf9;
+    background: #e5eefb;
 }
 
 .lost-report-page .selection-status {
     margin-top: 12px;
     padding: 8px 10px;
-    border-color: #e4e8ed;
+    border-color: #e3e8ee;
     border-radius: 7px;
     background: #f7f8fa;
     font-size: 10px;
 }
 
 .lost-report-page .selection-status.selected {
-    border-color: #d9e1f2;
-    background: #f2f5fb;
-    color: #38588f;
+    border-color: #d9e2ee;
+    background: #f0f5fc;
+    color: #22589e;
 }
 
 .lost-report-page .step-navigation button {
@@ -361,61 +361,61 @@
 }
 
 .lost-report-page .report-icon {
-    border-color: #dce4e7;
-    background: #eaf0f3;
+    border-color: #dde3eb;
+    background: #ebeff5;
 }
 
 .lost-report-page .step-number {
-    background: #eaf0f3;
-    color: #315b73;
+    background: #ebeff5;
+    color: #375781;
 }
 
 .lost-report-page .lost-status {
-    border-color: #dce5e9;
-    background: #edf2f5;
-    color: #315b73;
+    border-color: #dde4ed;
+    background: #eef1f7;
+    color: #375781;
 }
 
 .lost-report-page .lost-progress {
-    background: #315b73;
+    background: #375781;
 }
 
 .lost-report-page .progress-header {
-    color: #78643b;
+    color: #46618a;
 }
 
 .lost-report-page .category-search-field:focus-within {
-    border-color: #718b9a;
-    box-shadow: 0 0 0 3px rgba(49, 91, 115, 0.1);
+    border-color: #7488a4;
+    box-shadow: 0 0 0 3px rgba(55,87,129, 0.1);
 }
 
 .lost-report-page .category-search-result-action {
-    color: #315b73;
+    color: #375781;
 }
 
 .lost-report-page .category-card.selected {
-    border-color: #91a8b4;
-    background: #edf2f5;
-    color: #294e63;
-    box-shadow: inset 0 0 0 1px #91a8b4;
+    border-color: #98a5b7;
+    background: #eef1f7;
+    color: #2f4a70;
+    box-shadow: inset 0 0 0 1px #98a5b7;
 }
 
 .lost-report-page .category-card.selected strong {
-    color: #294e63;
+    color: #2f4a70;
 }
 
 .lost-report-page .category-card.selected small {
-    color: #597284;
+    color: #5b708d;
 }
 
 .lost-report-page .selection-status.selected {
-    border-color: #d7e1e6;
-    background: #edf2f5;
-    color: #315b73;
+    border-color: #d9e0ea;
+    background: #eef1f7;
+    color: #375781;
 }
 
 .lost-report-page .lost-next-button:hover,
 .lost-report-page .lost-submit:hover,
 .lost-report-page .lost-gps-button:hover {
-    background: #274d63;
+    background: #2d4970;
 }

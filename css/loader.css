@@ -38,7 +38,7 @@
     width: 30px;
     height: 30px;
     margin: -15px 0 0 -15px;
-    color: #183f39;
+    color: #0a366c;
     will-change: transform;
 }
 
@@ -48,11 +48,11 @@
 
 #sf-loader .orbit .p.act,
 #sf-loader .orbit .p.done {
-    color: #c9a14a;
+    color: #5cb0ed;
 }
 
 #sf-loader .orbit .tr {
-    color: #c9a14a;
+    color: #5cb0ed;
     opacity: 0;
     pointer-events: none;
 }
@@ -80,12 +80,12 @@
 }
 
 #sf-loader .orbit .sp svg {
-    fill: #c9a14a;
+    fill: #5cb0ed;
     stroke: none;
 }
 
 #sf-loader .txt {
-    color: #183f39;
+    color: #0a366c;
     font-size: 16px;
     font-weight: 700;
 }

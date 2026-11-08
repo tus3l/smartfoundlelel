@@ -74,7 +74,7 @@ try {
                 description_score, location_score, date_score, color_score,
                 brand_score, image_score
          FROM matches
-         WHERE status <> "rejected"
+         WHERE status <> \'rejected\'
          ORDER BY overall_score DESC, id DESC'
     );
 

@@ -38,9 +38,13 @@ try {
     );
     $count->execute([$userId]);
 
-    $sql = 'SELECT id, title, message, reference_type, reference_id, is_read,
-                   UNIX_TIMESTAMP(created_at) AS created_at
-            FROM notifications WHERE user_id = ?';
+    $createdAt = $pdo->getAttribute(PDO::ATTR_DRIVER_NAME) === 'pgsql'
+        ? 'CAST(EXTRACT(EPOCH FROM created_at) AS BIGINT)'
+        : 'UNIX_TIMESTAMP(created_at)';
+
+    $sql = "SELECT id, title, message, reference_type, reference_id, is_read,
+                   {$createdAt} AS created_at
+            FROM notifications WHERE user_id = ?";
     $params = [$userId];
     if ($before !== null) {
         $sql .= ' AND id < ?';
